@@ -4,12 +4,12 @@
   :root {
     --text-color: #fff;
     --text-dark: #000;
-    --main-color: #29A6AB;
-    --darker-shade: #107F84;
-    --light-shade: #149BA1;
-    --lighter-shade: #C2EAEB;
-    --yellow: #FFEE5A;
-    --yellow-dark: #FAE100;
+    --main-color: #07277D;
+    --darker-shade: #0363A6;
+    --light-shade: #769EBA;
+    --lighter-shade: #3E6C93;
+    --yellow: #ADCFDF;
+    --yellow-dark: #07277D;
   }
   body{
     background: var(--lighter-shade);
@@ -59,11 +59,13 @@
     text-align: center;
     margin-bottom: 0;
    }
-   
    .card-text {
     color: var(--main-color);
     font-weight: 400;
     text-align: center;
+   }
+   .card-text .price{
+    font-size: 30px;
    }
    .description {
     color: var(--text-color);
